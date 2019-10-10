@@ -1,4 +1,5 @@
 __pycache__/
 mp3/
+venv/
 config.py
 youtube_links.csv

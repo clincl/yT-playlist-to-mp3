@@ -18,6 +18,7 @@ APIS Used
 $ git clone https://github.com/clincl/yT-playlist-to-mp3
 $ cd yT-playlist-to-mp3
 ```
+
 ### Setup
 - You will need to create and setup a config.py file.
 - Activate the Youtube Data API and get your key from the <a href="https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project">Google Developers Console</a>.
@@ -26,6 +27,17 @@ $ cd yT-playlist-to-mp3
 ```shell
 api_key = YOUR_API_KEY
 pId = YOUR_YOUTUBE_PLAYLIST_ID
+```
+
+#### Modules
+- Install by running:
+```shell
+$ pip install -r requirements.txt
+```
+- Alternatively, you can run
+```shell
+$ pip install google-api-python-client
+$ pip install youtube-dl
 ```
 
 ## Usage
