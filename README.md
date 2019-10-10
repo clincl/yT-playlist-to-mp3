@@ -18,6 +18,16 @@ APIS Used
 $ git clone https://github.com/clincl/yT-playlist-to-mp3
 $ cd yT-playlist-to-mp3
 ```
+### Modules
+- Install by running:
+```shell
+$ pip install -r requirements.txt
+```
+- Alternatively, you can run
+```shell
+$ pip install google-api-python-client
+$ pip install youtube-dl
+```
 
 ### Setup
 - You will need to create and setup a config.py file.
@@ -29,18 +39,8 @@ api_key = YOUR_API_KEY
 pId = YOUR_YOUTUBE_PLAYLIST_ID
 ```
 
-#### Modules
-- Install by running:
-```shell
-$ pip install -r requirements.txt
-```
-- Alternatively, you can run
-```shell
-$ pip install google-api-python-client
-$ pip install youtube-dl
-```
-
 ## Usage
+- The program should now be ready.
 ```shell
 $ python write.py
 $ python download.py
