@@ -41,4 +41,4 @@ $ python download.py
 ## License
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-- Copyright 2019 © Chuan Lin.
+- Copyright 2019 © Chuan Lin
