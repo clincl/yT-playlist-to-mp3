@@ -37,3 +37,8 @@ $ python download.py
 ## Notes
 - `download.py` doesn't account for some errors. I didn't test for them but these likely deal with deleted/private videos. 
 - My work around was to manually delete the lines up to the error and run `python download.py` again.
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+- Copyright 2019 © Chuan Lin.
